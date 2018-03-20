@@ -18,5 +18,5 @@ int main(int argc, char *argv[]){
 	toBaseM(out, base10, atoi(argv[3]));	
 	puts(out);
 
-	return 0;
+	exit(0);
 }

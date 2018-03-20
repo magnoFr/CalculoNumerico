@@ -25,7 +25,7 @@ long int valorAbsoluto (char elemento){
 	if((p = strchr(totalBase, elemento))){
 		//Como p e totalBase sao negativos na memoria e totalBase eh menor
 		//que p, basta subtrair p e TotalBase para achar o inderexamento
-		return  (p - totalBase);
+		return  (long int)(p - totalBase);
 	}
 	else{
 		return 1;
