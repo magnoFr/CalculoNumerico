@@ -1,0 +1,17 @@
+Algoritmo de conversão de base
+
+A atividade consiste em criar um algoritmo que converta um número
+de uma base n para uma m qualquer de tamanho máximo de 36.
+
+Criei um ponteiro de char para representar todos meus símbolos
+e seus respectivos valores em base 10 é dado pelo index.
+Para a conversão foi primeiro convertido para a base 10 utilizando o
+método de expansão ( para cada dígito, da direita para esquerda,
+multiplica-se pelo valor da base elevada por i++, i partindo de 0)
+
+Na base 10 o valor é tratado por como um inteiro. Para a conversão
+para uma base m foi feita a divisão sucessiva do valor na base 10 e
+seus quocientes pelo valor da base a querer. Para cada resto foi 
+armazenado em um array de char e depois invertido. O resultado é o
+valor já convertido. 
+
